@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="./css/sorteo.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+</script>
+
+   
+    
+</head>
+<body>
+    <h1>Sorteo</h1>
+   
+   <br>
+    <nav>
+        <ul>
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="club.html" >Club</a></li>
+            <li><a href="instalaciones.html" >Instalaciones</a></li>
+            <li><a href="escuela.html" >Escuela</a></li>
+            <li><a href="actividades.html" >Actividades</a></li>
+            <li><a href="reserva.html">Reserva</a></li>
+            <li><a href="contacto.html" >Contacto</a></li>
+            <li><a href="sorteo.html" >Sorteo</a></li>
+            
+        </ul>
+       </nav>
+
+       <h2>Prueba suerte</h2>
+       <h3>Metodo de funcionamiento: </h3>
+       <p>Ponga en la casilla correspondiente su nombre, sus apellidos, su número de teléfono y acto seguido pulse en el botón "Adicionar a la tabla", verás como se ha añadido toda tu información al sorteo; en el caso de que quiera retirar su información y no participar en este sorteo solo tiene que pulsar en el boton de "Quitar". Debajo podrá ver el Número de participantes totales que se van añadiendo a este sorteo.</p>
+       <h4>Segunda fase:</h4>
+       <p>Una vez completada la primera fase pulse el botón de "Girar la ruleta", la cual estará en blanco y una vez que le de al botón, se iniciará la ruleta y acto seguido le saldrá el premio que ha ganado, hay un total de 11 premios diferentes.</p>
+       
+       <script src="./js/sorteo.js"></script>
+       <img src="img/boletos.png" alt="boletos" class="boletos"> <br>
+
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://bl.ocks.org/sarahjsquire/raw/4706c4d48962e9962175/6ad2d061715fbc9f6de328ecb5ab5d3a6c1003d5/jquery.jSlots.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+
+<script src="https://bl.ocks.org/sarahjsquire/raw/4706c4d48962e9962175/6ad2d061715fbc9f6de328ecb5ab5d3a6c1003d5/jquery.jSlots.js"></script>
+<div class="container">
+    <form>
+     <div class="form-group">
+      <p>
+        <label>Ponga su Nombre:</label> <br>
+        <input id="nombre" class="form-control" type="text" placeholder="Nombre..." ><br>
+      </p>
+      <p>
+        <label>Ponga sus Apellidos:</label> <br>
+        <input id="apellido" class="form-control" type="text" placeholder="Apellido..."><br>
+      </p>
+      <p>
+        <label>Número de Teléfono:</label> <br>
+        <input id="telefono" class="form-control" type="text" placeholder="Teléfono..."> <br>
+      </p>
+      <button id="adicionar" class="btn btn-success" type="button">Adicionar a la tabla</button>
+    </div>
+  </form>
+  
+  <p>Número de Participantes:</p>
+
+    <div id="adicionados"></div>
+
+  <table  id="mytable" class="table table-bordered table-hover ">
+    
+    <tr>
+      <th>Nombre</th>
+      <th> Apellidos</th>
+      <th> Teléfono</th>
+      <th> Eliminar</th>
+  
+    </tr>
+  </table>
+  
+  </div>
+
+<div id="slot_wrapper">
+    <input type="text" class="search">
+    <ul id="slot">
+        <!-- la lista llenada por cada elemento -->
+        <li>test</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+    </ul>
+</div>
+<!-- Boton -->
+<button type="button" id="random_location" >Gira la ruleta</button><br><br><br><br>
+
+<img src="img/Logo.png" alt="logo" class="logo">
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-color:salmon ;
+    max-width: 1024px;
+    margin: auto;
+}
+nav {
+  
+    background: rgb(151, 213, 66);
+    border: 5px solid rgb(221, 219, 219);
+    margin: -65px;
+    margin-top:-2%;
+    margin-bottom: 3%;
+    padding: 19px 70px;
+    float: left;
+    width: 1250px;
+    margin-top: -1%;
+   
+}
+
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35pt;
+    text-align: center;
+    color: black;
+}
+
+    
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+nav ul li{
+    float: left;
+    padding: 0px 35px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15pt;
+}
+img.logo{
+
+    width: 220px;
+    position: absolute;
+    top: 1%;
+    right:130px;
+
+} 
+
+    * { box-sizing: border-box; }
+    li, ul { padding: 0; margin:0; }
+    input {
+        margin: 5px 0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        padding: 5px 4px 4px;
+        height: 30px;
+        width: 350px;
+        
+        
+    }
+    #slot li {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        padding: 6px 4px 6px 6px;
+        line-height: normal;
+        height: 30px;
+        overflow: hidden;
+
+       
+    }
+    #slot_wrapper {
+        position: relative;
+        margin-top: 9cm;
+        
+    }
+    .jSlots-wrapper {
+        margin: 4px 0;
+        overflow: hidden; /*oculta la lista */
+        height: 29px; /*altura de caca slot */
+        width: 300px; /*tamaño */
+        position: absolute;
+        top: 0px;
+        display: none;
+    }
+    #slot {
+        display: none;
+    }
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+img.boletos{
+    width: 220px;
+    display: block;
+    margin-top: 10cm;
+    position: absolute;
+    
+     margin-left: 27cm;
+}
+table{
+    border-collapse: collapse;
+    
+
+}
+table, td, th {
+    border: 2px solid rgb(151, 213, 66);
+    padding:20px;
+    margin-left:14cm;
+    margin-top:-9cm;
+}
+
+label{
+    display: block;
+    
+}
